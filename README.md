@@ -14,7 +14,7 @@ Requires python3 installed locally . Clone the repo , fork it or download the .z
 
 Main = hummingbird.py : 
 
-Choose a 'target url' and enter it into you .env file + save. (TARGET_URL=https://www.example.com).
+Choose a 'target url' and enter it into you .env file + save. (TARGET_URL=https://psicodata.io).
 
 In root dir (your folder name) . type ; pip install -r requirements.txt
 
