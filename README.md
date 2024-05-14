@@ -64,7 +64,7 @@ creates an iframe giving you a selection of search engines to choose from...
 
 16). swf.py for use when grabbing old school flash games , it will download everyfile present to ; output/downloaded_swf_files .download as many flash games as you like , use ruffle browser extension
 
-Go to https://psicodata.io/CDN/swf-arcade.zip and get your own swf game arcade.
+CLICK HERE to download your swf arcade player:  https://psicodata.io/CDN/swf-arcade.zip and get your own swf game arcade.
 
 17).txt2html converts txt 2 html.
 
