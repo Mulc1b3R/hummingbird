@@ -8,6 +8,8 @@ blog posts and articles , all image types, favicons , reddit and wikipedia menti
 
 Hummingbird provides a surgical method for precise data extraction of a 'Target Url'. Allowning for a full or selective extraction proccess.
 
+![hb](hummingbird.gif)
+
 # method
 
 Requires python3 installed locally . Clone the repo , fork it or download the .zip , depending on preference.
