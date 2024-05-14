@@ -48,6 +48,48 @@ while you work.
 
 10). type ; python posts.py   similar to above , but may enable deeper penetration and will grab anything that it's sister code missed.
 
+11). posts2mp3.py requires output from 'posts.py'    zero output= zero mp3.
+
+12). patchwork.py      creates 'patchwork.html'    containing a patchwork of grabbed images ,hypertext linked if applicable.
+
+13). media.py creates media_files folder and puts mp3's and mp4's inside if present. (may need to examine 'int-links.py' and re target for deeper penetration.
+
+this is really good for audio books and videos.
+
+14). exotic.py   grabs all  pdf, xml, zip, doc ,xls , docx , htm ,xlsx  files ; no result if nothing present.
+
+15). search.py   creates a "SEARCH ENGINES LIST " using 'template2.html' , puts it in 'output' folder as 'engines.html' ,then 'hummingbird 
+
+creates an iframe giving you a selection of search engines to choose from...
+
+16). swf.py for use when grabbing old school flash games , it will download everyfile present to ; output/downloaded_swf_files .download as many flash games as you like , use ruffle browser extension
+
+Go to https://psicodata.io/CDN/swf-arcade.zip and get your own swf game arcade.
+
+17).txt2html converts txt 2 html.
+
+18) wiki.py creates an 'organisation info txt '.consisting of mentions on 'reddit and wikipedia' returns null if null.
+
+19).  xtra.py get you any web manifest , rss feeds , and fonts.
+
+20). whois.py serves the same purpose as running an whois search on the web , returnd DNS info regarding DOMAIN NAME of target url.
+
+21). After running the whois , change target url in .env file to DOMAIN NAME (strip it of the https://www so that TARGET_URL=example.com ) the exact domain name will be in whois file you just created.
+
+22). ssl-ip.py returns data regarding the ssl certificate and ip address. (having changed to domain name first).
+
+23). record.py will .zip everything you just grabbed and move it from the output folder to the 'archive folder ,ready for your next operation. 
+
+24). you can cancell any script from running , if you hit a heavy 'payload' using 'ctrl + c' . 
+
+To target a differnt url just change the url in the .env
+
+To Eradicate any messy files in the archive use 'xxx.py'  this will destroy everything exept python and .zip files. in the location.
+
+If you haven't got it by now , thats because it doesn't exist.......................
+
+
+                                                                                       MADE IN YORKSHIRE
     
 
 
