@@ -94,9 +94,10 @@ To Eradicate any messy files in the archive use 'xxx.py'  this will destroy ever
 
 If you haven't got it by now , thats because it doesn't exist.......................
 
-In Memory of George Mellor , William Thorpe & Thomas Smith , Executed by hanging , 
+                                                                                      
 
-9.00 a.m. on Friday 8th January 1813, York Castle , instigators of the 'LUDDITE' Uprising.
+```In Memory of George Mellor , William Thorpe & Thomas Smith , Executed by hanging 9.00 a.m. on Friday 8th January 1813, York Castle , instigators of the 'LUDDITE' Uprising.```
+
 
                                                                                                                                               MADE IN YORKSHIRE
     
