@@ -16,7 +16,13 @@ Requires python3 installed locally . Clone the repo , fork it or download the .z
 
 Main = hummingbird.py : 
 
-Choose a 'target url' and enter it into you .env file + save. (TARGET_URL=https://psicodata.io).
+Choose a 'target url' and enter it into your example.env file, rename file '.env' , (delete the word 'example') + save as .env (txt).     e.g (TARGET_URL=https://psicodata.io).
+
+(.env files are invisible on some operating systems due to the fact that they contain sensitive data such as api keys ).
+
+Hummingbird should be os and browser 'agnostic' , this is for windows but all you need change is the syntax of yr commands if you are running on something else.
+
+create a folder called 'archive'. 
 
 In root dir (your folder name) . type ; pip install -r requirements.txt
 
