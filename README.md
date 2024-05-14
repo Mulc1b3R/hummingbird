@@ -44,7 +44,7 @@ while you work.
 
 (results produced in a grid format). hypertext linked.
 
-10). type ; python posts.py   similar to above , but may enable deeper penetration.
+10). type ; python posts.py   similar to above , but may enable deeper penetration and will grab anything that it's sister code missed.
 
     
 
