@@ -18,7 +18,7 @@ Choose a 'target url' and enter it into you .env file + save. (TARGET_URL=https:
 
 In root dir (your folder name) . type ; pip install -r requirements.txt
 
-This will load all the dependeccies .
+This will load all the dependencies.
 
 1). Then type ; python hummingbird.py  - this will create an 'output' folder , clone index.html of Target URL ,create iframe.html , open default browser = target.url //identified...
 
