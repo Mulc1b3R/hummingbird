@@ -1,0 +1,237 @@
+
+       <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hummingbird</title>
+    <link rel="stylesheet" href="style.css">
+	
+    <link rel="icon" type="image"a href="hummingbird.gif">
+	
+	 <style type="text/css">
+        body {
+            background: black url('hummingbird.gif') no-repeat;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<center>
+            
+<pre>### How to Use the HummingBird Suite
+	
+Run ; pip install -r requirements.txt    THEN,	
+			
+Run hummingbird.py first , this creates the output folder.
+			
+HB allows for a more surgical approach to "data exfiltration" 
+			
+compared to popular scrapers like 'webscrapbook' ect.
+			
+This approach obviates the need for searchability because 
+			
+it doesn't just dump everything in a pile....
+			
+After running this suite on a target url you will have EVERTHING pertaining to yr 
+			
+TARGET URL.
+			
+Be carful what you target because the scripts will download everything
+			
+if you hit a site with massive amounts of data and need to stop the process ; 
+			
+hold 'control + C ' . To terminate....
+			
+
+**Step 1: Set Up Environment Variables**
+
+1. Create a file named `.env` in the root directory of the suite.
+
+2. Add the following line within the `.env` file with your desired target URL:
+   ```
+   TARGET_URL=https://www.example.com/
+   ```
+
+**Step 2: Run the hummingbird.py:
+
+1. Open your terminal or command prompt.
+
+2. Execute the `hummingbird.py` script by running the following command:
+
+   ```
+   python hummingbird.py
+   ```
+
+**Step 3: Script Functionality**
+
+- The script reads the target URL from the `.env` file.
+
+- It scrapes the content of the target URL and creates `index.html` with the formatted content in the `output` folder.
+
+- An `iframe.html` file is created with the target URL embedded in an iframe for easy access.
+
+- The script opens a web page showing the iframe to visualize the target URL content.
+
+**Step 4: Review Output**
+
+- Check the `output` folder for the generated `index.html` and `iframe.html` files.
+
+- The `iframe.html` file will display the target URL content embedded within an iframe.
+
+**Additional Notes:**
+
+- Ensure the `.env` file remains in the root directory for the script to access the target URL.
+
+- Update the `TARGET_URL` in the `.env` file to scrape different URLs.
+
+                    
+											  </pre>
+											  <br>
+
+
+ <br>
+ <pre>
+    
+Instructions for css-extractor.py Script Usage:
+	
+	
+Run the script using python css-extractor.py in your terminal or command prompt.
+	
+The script will fetch the HTML content from the specified target URL in the .env file.
+	
+It will extract CSS file URLs from link tags in the HTML file.
+	
+The CSS files will be downloaded and saved in the styles directory.
+	
+The script will display the saved CSS files and confirm when all CSS files have been downloaded.</pre>
+ <br>
+											   <br><br>
+											   
+<pre>
+Instructions for js-extractor.py :
+
+	
+Run the script by executing python js-get.py in your terminal or command prompt.
+	
+The script will fetch the HTML content from the target URL specified in the .env file.
+	
+It will extract JavaScript file URLs embedded in script tags and external links.
+	
+All JavaScript files will be downloaded and saved in the js_files directory.
+	
+The script will inform you of the saved scripts and notify you when all JavaScript
+ 
+                                                                            files have been downloaded.											   
+	</pre>
+<br><br>
+<br><br>
+<pre>
+
+
+Instructions for whois-lookup.py:
+
+	
+Run the script using python3: python whois-lookup.py   in your terminal or command prompt.
+	
+The script will load the target URL from the .env file and perform a 'whois' lookup for the specified domain.
+	
+Retrieved whois data, along with the timestamp, will be stored in a JSON file named whois_info.json in the output directory.
+	
+The script will display a message confirming the successful saving of the whois information or notify you if any errors occur.
+	
+The resulting json file contains a whole range of data regarding the target url
+</pre>
+<br>
+<br><pre>
+### How to Use txt2html.py
+
+This is the script i use to make 'readme' files to accompany programs.
+
+**Step 1: Preparation**
+
+1. Place the `txt2html.py` script in the same directory as your text file.
+
+    (rename , yr text file 'text.txt').
+
+2. Ensure you have Python3 installed on your system.
+
+**Step 2: Run the Script**
+
+1. Open your terminal or command prompt.
+
+2. Execute the `txt2html.py` script by running the following command:
+
+   ```
+   python txt2html.py
+   ```
+
+**Step 3: Functionality**
+
+- The script reads the content from a specified text file.
+
+- It formats the text content into an HTML structure.
+
+- A new HTML file is created in the `output` folder with the formatted content.
+
+**Additional Notes:**
+
+- Update the `input_file_path` variable within the script to specify the path to your text file.
+
+- Ensure that the text file is correctly formatted for better HTML output. Simple text formatting is supported (e.g., paragraphs, line breaks).
+
+- Customize the HTML structure within the script as needed for styling and layout changes.
+</pre>
+<br>
+<br>
+<pre>
+Other scripts will grab any file types present @ the target url ; 'media.py' will grab mp4 files.
+
+'mp3-create.py' turns the text to an audio file
+
+'exotic.py'  grabs any xml,pdf,docx,zip  ect...
+
+swf.py   will get all shockwave flash games.....
+
+patchwork.py makes a 'patchwork quilt' of the image files....
+
+posts.py and articles.py are for use on BLOG type sites , penetrating to deeper levels of the Target Url...
+
+All in all this suite will grab ANYTHING from ANYWHERE......I created it for data extraction
+
+for making API's.
+
+Please do not use malevolently.And be careful with 'archive-cleaner.py' , it will delete everything
+
+in the dir you are in ,apart from python files.(This is the 'Nuclear Option' , use only if you really need to).
+</pre>
+<br><pre>
+If it was useful , and you are one of those people who have more money than u need , send me some
+
+tokens from the Etherium main net (even SHIB) , metamask below...(i know , the gas price is too high!).</pre>
+<br>
+											   
+ <a href="https://www.crummy.com/software/BeautifulSoup/"> Powered with BeautifulSoup. </a>
+ <br><br>
+  <br><br>
+metamask address ; 0x63673528404C9B9394d4Ec6FA037ED825c8b0faa
+  <br><br>
+  Copyright © 2023 Psico Communications and Blockchain Development.
+  
+  <br><br>
+  <br><br>
+  
+  
+ Licensed under the Apache License, Version 2.0 <br>
+<br><br><br><pre>
+MADE IN YORKSHIRE.
+<br>
+In Memory of George Mellor , William Thorpe & Thomas Smith , Executed by hanging , 
+
+9.00 a.m. on Friday 8th January 1813, York Castle , instigators of the 'LUDDITE' Uprising.</pre>
+<br><br>
+</center>
+        </body>
+        </html>
+        
